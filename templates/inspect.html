@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+	<button type="submit" name="" class="back btn btn-outline-primary" onclick="goback()">show layers</button>
+
+	<h1>layer - <b>{{ly}}</b> &nbsp&nbsp{{layer_name.i}}</h1>
+	<br>
+
+	<img src="static/{{data}}" height="1000px" />
+
+	
+	
+	<script>
+		function goback()
+		{
+			window.history.back();
+		}
+	</script>
+{%endblock%}

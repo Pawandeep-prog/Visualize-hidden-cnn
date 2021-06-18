@@ -1,0 +1,56 @@
+body{
+	background-color: #E4EFE7;
+	text-align: center;
+    min-height: 100vh;
+}
+
+h1{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 65px;
+	color: #564A4A;
+}
+.steps{
+	margin: 20px;
+	margin-top: 100px;
+}
+
+b{
+	color : #064420;
+}
+.layers{
+	text-align: left;
+	margin-left: 800px;
+}
+a{
+	font-size: 30px;
+}
+h2{
+	color: #4AA96C;
+	font-size: 35px;
+}
+
+.back{
+	position: fixed;
+	left : 50px;
+}
+.bottom-container{
+	bottom: 0px;
+	background-color: #D1D9D9;
+	margin-top: 20px;
+	padding-top: 30px;
+	width: 100%;
+}
+
+.contact{
+	font-size: 35px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+i{
+	margin:20px;	
+}
+p{
+	margin-bottom: 0px;
+	padding-bottom: 20px
+}

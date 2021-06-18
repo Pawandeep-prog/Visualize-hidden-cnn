@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+	<h1>CHOOSE <b>LAYER</b> YOU WANT TO <b>INSPECT</b></h1>
+
+	<div class='layers'>
+	{% for i in layers %}
+	<h3> layer - {{i.id}} &nbsp&nbsp <a href="{{url_for('inspect')}}?v={{i.id}}">{{i.i}}</a><br></h3>
+	{% endfor %}
+	</div>
+
+	<img src="static/choose.gif" height="400px">
+
+{%endblock%}

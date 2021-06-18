@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+	<h1 style="margin-bottom: 50px">Give Me Your <b>MODEL</b></h1>
+
+	<form method="GET" action="{{ url_for('choose_img') }}">
+
+		<div class="col-auto">
+		<input type="text" class="form-control-lg" style="width: 400px;" name="path" placeholder="paste the path of your model here !">
+		</div>
+
+		<div class="col-auto">
+		<input type="submit" class="btn btn-primary btn-lg m-3" name="" value="Next">
+		</div>
+
+	</form>
+	<img src="static/gimme2.gif" height="400px" style="margin: 60px; opacity: 90%">
+
+	
+{%endblock%}

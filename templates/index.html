@@ -1,0 +1,16 @@
+{%extends "base.html"%}
+
+{%block content%}
+
+<h1 style="margin-bottom: 0px; font-size: 70px;">Amazing page to Quickly <b>Visualize</b> hidden <br><b>Convloutional</b> layers</h1>
+
+<img src="static/steps.png" height="400px" class="steps" style="opacity: 70%">
+<br>
+<img src="static/go.gif" height="400px">
+<form action="{{url_for('root')}}">
+	<input type="submit" name="" value="Get Started" class="btn btn-outline-primary btn-lg" style="font-size: 30px; width:500px; height: 100px;">
+</form>
+
+
+
+{%endblock%}
